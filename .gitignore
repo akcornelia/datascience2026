@@ -1,0 +1,12 @@
+# Mac system files
+.DS_Store
+__MACOSX/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Unzipped raw data (keep only the original zips in git; the V-Dem CSV is >100 MB)
+data/raw/*/
+V-Dem-CY-Core-v16.csv
